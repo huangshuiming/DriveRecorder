@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">"Drive Recorder"</string>
+    <string name="title_activity_file_manage">FileManageActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+   
+	<!--  app  string   -->
+	
+    <string name="app_name">"Driving Recorder"</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_quality_low">Recording mode (Low)</string>
+    <string name="settings_quality_mid">Landscape mode (High)</string>
+    <string name="settings_quality">Record Quality</string>
+    <string name="settings_cache_size">Cache Space</string>
+    <string name="settings_recorder_time">Time Segment</string>
+    <string name="settings_recorder_time_type">Minute</string>
+    
+    <string name="file_delete_btn">Delete</string>
+    <string name="file_select_option">Select All</string>
+    <string name="file_actionbar_name">Record file</string>
+    
+    <string name="file_unknown_str">Unknown</string>
+    <string name="file_recording_str">Recorded in</string>
+    <string name="file_size_str">Size: %1$s</string>
+    <string name="file_time_str">Duration:%1$s</string>
+    
+    <string name="file_time_hour">h</string>
+    <string name="file_time_minute">m</string>
+    <string name="file_time_second">s</string>
+    
+    <string name="loading_str">Loadinging....</string>
+    <string name="all_select_option">Select All</string>
+    <string name="all_no_select_option">Uncheck all</string>
+	<string name="toast_no_sd_card">SD card does not exist</string>    
+	
+	<string name="dialog_title_wran">Warn</string>
+	<string name="dialog_title_hit">prompt</string>
+	<string name="dialog_message_exit">Sure exit car mode</string>
+	<string name="dialog_message_space">Insufficient storage space,Please clean up storage space</string>
+	<string name="cannot_connect_camera">Unable to connect to the camera. Make sure the camera is turned off or use flash applications.</string>
+    
+    
+    <string name="time_12_hours_format" translatable="false">hh:mm</string>
+    <string name="time_24_hours_format" translatable="false">HH:mm</string>
+    
+
+</resources>

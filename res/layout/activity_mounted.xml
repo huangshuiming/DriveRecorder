@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mounted_bg" >
+    
+    <com.malata.recorder.widget.TimeClockView
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="48dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/centre_bg" />
+
+    <ImageView
+        android:id="@+id/img_drive_recorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:src="@drawable/recorder_mode_bg"
+        android:stateListAnimator="@drawable/mounted_selector" />
+
+    <ImageView
+        android:id="@+id/img_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/img_drive_recorder"
+        android:src="@drawable/music_bg"
+        android:stateListAnimator="@drawable/mounted_selector" />
+
+    <ImageView
+        android:id="@+id/img_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/img_drive_recorder"
+        android:src="@drawable/dial_bg"
+        android:stateListAnimator="@drawable/mounted_selector" />
+
+    <ImageView
+        android:id="@+id/img_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_toLeftOf="@+id/img_music"
+        android:src="@drawable/mounted_mode_bg"
+        android:stateListAnimator="@drawable/mounted_selector" />
+
+    <ImageView
+        android:id="@+id/img_recorder_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/img_drive_recorder"
+        android:layout_alignTop="@+id/img_music"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/recorder_ing" />
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_drive_recorder"
+        android:layout_alignRight="@+id/img_drive_recorder"
+        android:layout_alignLeft="@+id/img_drive_recorder"
+        android:orientation="horizontal"
+        >
+        <ImageView 
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wifi_icon"
+            />
+        <ImageView 
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xin_icon"
+            
+            />
+        <ImageView 
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bule_icon"
+            />
+        <ImageView 
+           android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/location_icon"
+            />
+        <ImageView 
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/battery_icon"
+            />
+    </LinearLayout>
+
+    <ImageView
+        style="@style/settings_control_bg"
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/ic_exit" />
+
+</RelativeLayout>

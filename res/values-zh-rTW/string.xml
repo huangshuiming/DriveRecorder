@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"行車記錄器"</string>
+    <string name="action_settings">設定</string>
+    <string name="settings_quality_low">記錄模式（低）</string>
+    <string name="settings_quality_mid">風景模式（高）</string>
+    <string name="settings_quality">拍攝質量</string>
+    <string name="settings_cache_size">緩存空間上線</string>
+    <string name="settings_recorder_time">時間分段大小</string>
+    <string name="settings_recorder_time_type">分鐘</string>
+    
+    <string name="file_delete_btn">刪除</string>
+    <string name="file_select_option">全選</string>
+    <string name="file_actionbar_name">記錄文件</string>
+    
+    <string name="file_unknown_str">未知</string>
+    <string name="file_recording_str">正在錄製中</string>
+    <string name="file_size_str">大小：%1$s</string>
+    <string name="file_time_str">時長：%1$s</string>
+    
+    <string name="file_time_hour">時</string>
+    <string name="file_time_minute">分鐘</string>
+    <string name="file_time_second">秒</string>
+    
+    <string name="loading_str">正在加載ing....</string>
+    <string name="all_select_option">全選</string>
+    <string name="all_no_select_option">全不選</string>
+	<string name="toast_no_sd_card">SD卡不存在</string>    
+	
+	<string name="dialog_title_wran">警告</string>
+	<string name="dialog_title_hit">提示</string>
+	<string name="dialog_message_exit">確定退出車載模式</string>
+	<string name="dialog_message_space">存儲空間不足,請先清理存儲空間</string>
+	<string name="cannot_connect_camera">無法連接到相機。請確保已關閉會使用相機或閃光燈的應用程序。</string>
+    
+    
+    <string name="time_12_hours_format" translatable="false">hh:mm</string>
+    <string name="time_24_hours_format" translatable="false">HH:mm</string>
+    
+</resources>

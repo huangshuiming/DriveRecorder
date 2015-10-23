@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height" 
+    android:layout_marginTop="@dimen/item_margin"
+    >
+
+    <FrameLayout 
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/layout"
+        android:layout_width="@dimen/item_height"
+        android:layout_height="@dimen/item_height"
+        >
+       <ImageView
+           android:layout_gravity="center"
+            android:id="@+id/fileImg"
+            android:layout_width="@dimen/item_image_size"
+            android:layout_height="@dimen/item_image_size"
+            android:layout_marginRight="@dimen/item_margin"
+            android:clickable="true"
+            android:scaleType="center"
+            android:src="@drawable/record_defalut_icon" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/item_margin"
+        android:id="@+id/fileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/layout"
+        android:textSize="@dimen/text_size"
+        />
+
+    <TextView
+        android:paddingBottom="@dimen/item_margin"
+        android:id="@+id/fileTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/layout"
+        android:textSize="@dimen/text_size"
+        android:text="@string/file_time_str"
+        />
+
+    <TextView
+        android:id="@+id/fileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/layout"
+        android:textSize="@dimen/text_size"
+        android:text="@string/file_size_str" />
+
+    <ImageView
+        android:id="@+id/option"
+        android:layout_width="@dimen/setting_icon_size"
+        android:layout_height="@dimen/setting_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/setting_icon_size"
+        android:src="@drawable/record_check_defalut" />
+
+</RelativeLayout>
